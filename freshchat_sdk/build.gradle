@@ -27,8 +27,8 @@ android {
 
     defaultConfig {
         minSdkVersion 16
-        versionCode 230
-        versionName "2.3.0"
+        versionCode 240
+        versionName "DismissCanary"
         targetSdkVersion 26
         consumerProguardFiles 'consumer-proguard-rules.pro'
         buildConfigField "long", 'BUILT_AT', System.currentTimeMillis() + 'L'
