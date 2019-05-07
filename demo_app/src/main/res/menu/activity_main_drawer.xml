@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="After login">
+        <menu>
+            <item
+                android:id="@+id/nav_restore_user"
+                android:title="Restore user" />
+            <item
+                android:id="@+id/nav_user_details"
+                android:title="Set user details" />
+            <item
+                android:id="@+id/nav_user_properties"
+                android:title="Set user properties" />
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_show_channels"
+            android:title="Show all channels" />
+        <item
+            android:id="@+id/nav_show_channel"
+            android:title="Show particular channel" />
+        <item
+            android:id="@+id/nav_show_faqs"
+            android:title="Show all FAQs" />
+        <item
+            android:id="@+id/nav_show_faq"
+            android:title="Show particular FAQ" />
+    </group>
+
+    <item android:title="After logout">
+        <menu>
+            <item
+                android:id="@+id/nav_reset_user"
+                android:title="reset user" />
+        </menu>
+    </item>
+
+</menu>
